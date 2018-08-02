@@ -1,5 +1,10 @@
 # PyPackerDetect
 
+## New
+* Python 2.7 compatability
+
+## Overview
+
 A small python script/library to detect whether an executable is packed.
 
 This is one of many tools we use for dataset curation within the ARG team at Cylance. Accuracy is not perfect, but is sufficient in accomplishing what we need.
@@ -28,3 +33,4 @@ Example usage is in `DetectPacker.py`. Can be run via command line.
 ## Resources
 
 Big thanks to [Hexacorn](http://www.hexacorn.com/blog/2016/12/15/pe-section-names-re-visited/), a good portion of the known PE section names come from there.
+
